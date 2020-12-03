@@ -12,6 +12,7 @@ with open('02/input.txt') as pwlist:
             counter = counter + 1
     print(counter)
 
+# didn't work; undercounted
 with open('02/input.txt') as pwlist2:
     counter2 = 0
     for line in pwlist2:
